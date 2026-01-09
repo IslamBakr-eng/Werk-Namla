@@ -1,9 +1,16 @@
-export default function Home() { return <h1>Werk Namla Agency – Bonus System</h1>; }
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main style={{ padding: 40, fontFamily: "Arial", color: "#fff", background: "#0f172a", minHeight: "100vh" }}>
+    <main
+      style={{
+        padding: 40,
+        fontFamily: "Arial",
+        color: "#ffffff",
+        background: "#0f172a",
+        minHeight: "100vh",
+      }}
+    >
       <h1>🐜 Werk Namla Agency</h1>
       <h3>Bonus & Profit System</h3>
 
@@ -34,6 +41,7 @@ export default function Home() {
           cursor: pointer;
           border-radius: 8px;
         }
+
         button:hover {
           background: #eab308;
         }
